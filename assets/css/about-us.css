@@ -10,6 +10,7 @@
 .section1 .subheading {
   max-width: 587px;
   line-height: 32px;
+  font-weight: 400;
 }
 
 .section2 {
@@ -77,7 +78,7 @@
 .section3__rectangle {
   width: 785px;
   height: 800px;
-  background: url('../svg/orange-blue-frame-sm.svg');
+  background: url("../svg/orange-blue-frame-sm.svg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -98,7 +99,7 @@
 
 .section3 .contact-us-link p a {
   font-size: 2rem;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   color: var(--orange);
   text-decoration: underline;
@@ -126,9 +127,7 @@
   margin-bottom: 10px;
 }
 
-
-
-@media(max-width: 1047px) {
+@media (max-width: 1047px) {
   .section2 {
     padding: 72px 40px 113px;
   }
@@ -140,7 +139,7 @@
   .section2 .info-blocks-group {
     flex-direction: column;
   }
-  
+
   .section2 .info-block {
     max-width: 100%;
     background: var(--white);
@@ -162,7 +161,7 @@
   }
 }
 
-@media(max-width: 737px) {
+@media (max-width: 737px) {
   .section1 .subheading {
     text-align: left;
   }
@@ -188,7 +187,7 @@
     height: 1000px;
     padding: 40px 30px 30px;
     margin: 0 auto 5px;
-    background: url('../svg/orange-blue-frame-mobile2.svg');
+    background: url("../svg/orange-blue-frame-mobile2.svg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
