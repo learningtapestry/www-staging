@@ -82,7 +82,7 @@
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 51px 132px 42px 138px;
+  padding: 90px 80px 42px 80px;
   margin: 0 auto 30px;
 }
 
@@ -91,18 +91,8 @@
   margin-bottom: 22px;
 }
 
-.section3 .contact-us-link p {
-  font-size: 1.6rem;
-  line-height: 30px;
-  padding-left: 50px;
-}
-
-.section3 .contact-us-link p a {
-  font-size: 2rem;
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
+.contact-us-link a {
   color: var(--orange);
-  text-decoration: underline;
 }
 
 .section3__rectangle-item .image {
@@ -114,7 +104,7 @@
 .section3__rectangle .heading3 {
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   line-height: 32px;
 }
 
@@ -198,7 +188,8 @@
   }
 
   .section3 .contact-us-link p {
-    padding-left: 13px;
+    padding-left: 10px;
+    font-size: 1.5rem;
   }
 }
 
@@ -209,4 +200,16 @@
 .info-block img {
   width: 150px;
   height: 150px;
+}
+.list {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+@media (min-width: 768px) {
+  .list {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
 }
