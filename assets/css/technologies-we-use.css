@@ -18,11 +18,11 @@
 }
 
 .section2 .tech-logo {
-  width: 270px;
-  height: 90px;
+  width: 180px;
+  height: 72px;
   background: var(--white);
   border-radius: 8px;
-  padding: 16px 40px;
+  padding: 16px;
   margin: 10px;
 }
 
@@ -32,11 +32,11 @@
   }
 }
 .section2 .tech-logo-empty {
-  width: 270px;
-  height: 90px;
+  width: 180px;
+  height: 72px;
   background: transparent;
   border-radius: 8px;
-  padding: 16px 40px;
+  padding: 16px;
   margin: 10px;
 }
 
@@ -223,6 +223,6 @@
 }
 
 .tech-logo img {
-  max-height: 56px;
-  max-width: 152px;
+  max-height: 50px;
+  max-width: 146px;
 }
