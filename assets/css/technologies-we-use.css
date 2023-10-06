@@ -13,16 +13,20 @@
   font-weight: 400;
 }
 
+.section2 {
+  padding: 0 180px;
+}
+
 .section2 .tech-logo {
   width: 180px;
   height: 72px;
   background: var(--white);
   border-radius: 8px;
-  padding: 16px;
+  padding: 12px;
   margin: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .section2 .tech-logo-empty {
     display: none;
   }
@@ -36,103 +40,16 @@
   margin: 10px;
 }
 
-.section2 .info-block__image {
-  width: 150px;
-  margin-bottom: 25px;
-}
-
-.section2 .info-block:hover .info-block__image {
-  display: none;
-}
-
-.section2 .info-block__image-dog {
-  display: none;
-  width: 150px;
-  margin-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section2 .info-block:hover .info-block__image-dog {
-  display: block;
-}
-
 .section2 .heading2 {
   margin-bottom: 30px;
-}
-
-.section2 .info-block .heading3 {
-  font-size: 2.2rem;
-  font-weight: 600;
-  white-space: nowrap;
-  margin-bottom: 15px;
-}
-
-.section2 .info-block .subheading {
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 30px;
 }
 
 .section3 .heading2 {
   margin-bottom: 44px;
 }
 
-.section3__rectangle {
-  width: 785px;
-  height: 800px;
-  background: url("../svg/orange-blue-frame-sm.svg");
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding: 51px 132px 42px 138px;
-  margin: 0 auto 30px;
-}
-
-.section3__rectangle-item {
-  gap: 14px;
-  margin-bottom: 22px;
-}
-
-.section3 .contact-us-link p {
-  font-size: 1.6rem;
-  line-height: 30px;
-  padding-left: 50px;
-}
-
-.section3 .contact-us-link p a {
-  font-size: 2rem;
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-  color: var(--orange);
-  text-decoration: underline;
-}
-
-.section3__rectangle-item .image {
-  width: 32px;
-  height: 32px;
-  gap: 14px;
-}
-
-.section3__rectangle .heading3 {
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 18px;
-  line-height: 32px;
-}
-
-.section3__rectangle-item .text {
-  line-height: 28px;
-  margin-bottom: 4px;
-}
-
-.section3__rectangle-item:nth-of-type(2) .text {
-  margin-bottom: 10px;
-}
-
 .tech-name {
   padding-top: 40px;
-  padding-bottom: 16px;
 }
 
 @media (max-width: 1023px) {
@@ -148,19 +65,11 @@
     padding: 101px 9px 42px;
   }
 
-  .section2 .info-blocks-group {
-    flex-direction: column;
-  }
-
   .section2 .tech-logo {
     max-width: 100%;
     background: var(--white);
     border-radius: 8px;
     padding: 16px auto;
-  }
-
-  .section2 .info-blocks-group {
-    gap: 20px;
   }
 
   .section3__rectangle {
@@ -170,6 +79,9 @@
     margin-bottom: 0;
     height: auto;
     padding: 30px;
+  }
+  .tech-name {
+    padding-bottom: 8px;
   }
 }
 
@@ -212,10 +124,6 @@
   .section3 .contact-us-link p {
     padding-left: 13px;
   }
-}
-
-.section3__rectangle-item span {
-  margin-right: 10px;
 }
 
 .tech-logo img {
