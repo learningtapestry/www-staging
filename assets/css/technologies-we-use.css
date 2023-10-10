@@ -24,6 +24,8 @@
   border-radius: 8px;
   padding: 12px;
   margin: 10px;
+  display: flex;
+  align-items: center;
 }
 @media (max-width: 414px) {
   width: 90%;
@@ -136,6 +138,10 @@
 .tech-logo img {
   max-height: 50px;
   max-width: 146px;
+  border: 2px dashed magenta;
+
+  justify-content: center;
+  margin: auto;
 }
 
 footer {
