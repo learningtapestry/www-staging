@@ -28,7 +28,9 @@
   align-items: center;
 }
 @media (max-width: 414px) {
-  width: 90%;
+  .section2 .tech-logo {
+    width: 90%;
+  }
 }
 
 @media (max-width: 614px) {
