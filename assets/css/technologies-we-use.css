@@ -25,6 +25,20 @@
   padding: 12px;
   margin: 10px;
 }
+@media (max-width: 414px) {
+  width: 90%;
+}
+
+@media (max-width: 614px) {
+  .logo-position {
+    justify-content: center;
+  }
+}
+@media (min-width: 615px) {
+  .logo-position {
+    justify-content: space-between;
+  }
+}
 
 @media (max-width: 1200px) {
   .section2 .tech-logo-empty {
@@ -63,13 +77,6 @@
 
   .section3 {
     padding: 101px 9px 42px;
-  }
-
-  .section2 .tech-logo {
-    max-width: 100%;
-    background: var(--white);
-    border-radius: 8px;
-    padding: 16px auto;
   }
 
   .section3__rectangle {
