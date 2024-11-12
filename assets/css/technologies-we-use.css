@@ -1,0 +1,149 @@
+.navbar__container::after {
+  left: -275px;
+  top: -251px;
+}
+
+.section1 {
+  padding-top: 75px;
+}
+
+.section1 .subheading {
+  max-width: 80%;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.section2 {
+  padding: 0 180px;
+}
+
+.section2 .tech-logo {
+  width: 180px;
+  height: 72px;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 414px) {
+  .section2 .tech-logo {
+    width: 90%;
+  }
+}
+
+@media (max-width: 614px) {
+  .logo-position {
+    justify-content: center;
+  }
+}
+@media (min-width: 615px) {
+  .logo-position {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section2 .tech-logo-empty {
+    display: none;
+  }
+}
+.section2 .tech-logo-empty {
+  width: 180px;
+  height: 72px;
+  background: transparent;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+}
+
+.section2 .heading2 {
+  margin-bottom: 30px;
+}
+
+.section3 .heading2 {
+  margin-bottom: 44px;
+}
+
+.tech-name {
+  padding-top: 40px;
+}
+
+@media (max-width: 1023px) {
+  .section1 .subheading {
+    max-width: 100%;
+  }
+
+  .section2 {
+    padding: 72px 40px 113px;
+  }
+
+  .section3 {
+    padding: 101px 9px 42px;
+  }
+
+  .section3__rectangle {
+    background: none;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    height: auto;
+    padding: 30px;
+  }
+  .tech-name {
+    padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 737px) {
+  .section1 .subheading {
+    text-align: left;
+  }
+
+  .section2 {
+    padding: 5px 15px 0;
+  }
+
+  .section3 .heading2 {
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    line-height: 34px;
+  }
+
+  .section3 .heading3 {
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .section3__rectangle {
+    width: 350px;
+    height: 1000px;
+    padding: 40px 30px 30px;
+    margin: 0 auto 5px;
+    background: url("../svg/orange-blue-frame-mobile2.svg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .section3 .image {
+    margin: 0;
+  }
+
+  .section3 .contact-us-link p {
+    padding-left: 13px;
+  }
+}
+
+.tech-logo img {
+  max-height: 50px;
+  max-width: 146px;
+  justify-content: center;
+  margin: auto;
+}
+
+footer {
+  background: #eef1f5;
+}
